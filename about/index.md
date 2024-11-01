@@ -7,5 +7,5 @@
 ---
 
 > 作者:   
-> URL: http://example.org/about/  
+> URL: https://icy-cat.github.io/about/  
 

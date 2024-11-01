@@ -7,5 +7,5 @@
 ---
 
 > 作者: Caaat  
-> URL: http://example.org/posts/first_post/  
+> URL: https://icy-cat.github.io/posts/first_post/  
 

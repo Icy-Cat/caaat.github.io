@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>所有文章 - Caaat&#39;s Blog</title>
-    <link>http://example.org/posts/</link>
+    <link>https://icy-cat.github.io/posts/</link>
     <description>Caaat&#39;s Blog</description>
     <generator>Hugo 0.136.5 &amp; FixIt v0.3.13</generator>
     <language>zh-cn</language>
     <managingEditor>1683191754@qq.com (Caaat)</managingEditor>
     <webMaster>1683191754@qq.com (Caaat)</webMaster>
     <lastBuildDate>Fri, 01 Mar 2024 17:10:04 +0800</lastBuildDate>
-    <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://icy-cat.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇文章</title>
-      <link>http://example.org/posts/first_post/</link>
+      <link>https://icy-cat.github.io/posts/first_post/</link>
       <pubDate>Fri, 01 Mar 2024 17:10:04 +0800</pubDate><author>1683191754@qq.com (Caaat)</author>
-      <guid>http://example.org/posts/first_post/</guid>
+      <guid>https://icy-cat.github.io/posts/first_post/</guid>
       <description>&lt;p&gt;博客（英语：Blog）是一种在线日记型式的个人网站，借由张帖子章、图片或视频来记录生活、抒发情感或分享信息。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。&lt;/p&gt;</description>
     </item>
   </channel>
