@@ -7,5 +7,5 @@
 ---
 
 > 作者: Caaat  
-> URL: http://localhost:6122/posts/first_post/  
+> URL: https://icy-cat.github.io/posts/first_post/  
 
