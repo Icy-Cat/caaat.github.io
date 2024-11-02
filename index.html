@@ -11,8 +11,8 @@
     <title>Caaat&#39;s Blog</title><meta name="author" content="Caaat">
 <meta name="description" content="">
   <meta itemprop="name" content="Caaat&#39;s Blog">
-  <meta itemprop="datePublished" content="2024-11-01T14:51:41+08:00">
-  <meta itemprop="dateModified" content="2024-11-01T14:51:41+08:00"><meta property="og:url" content="https://icy-cat.github.io/">
+  <meta itemprop="datePublished" content="2024-11-02T19:31:22+08:00">
+  <meta itemprop="dateModified" content="2024-11-02T19:31:22+08:00"><meta property="og:url" content="https://icy-cat.github.io/">
   <meta property="og:site_name" content="Caaat&#39;s Blog">
   <meta property="og:title" content="Caaat&#39;s Blog">
   <meta property="og:locale" content="zh_cn">
@@ -148,13 +148,23 @@
     </a><a href="mailto:kuku8ot@proton.me" title="Email"target="_blank" rel="external nofollow noopener noreferrer me"><i class="fa-regular fa-envelope fa-fw" aria-hidden="true"></i>
     </a><a href="/index.xml" title="RSS"target="_blank" rel="external nofollow noopener noreferrer me"><i class="fa-solid fa-rss fa-fw" aria-hidden="true"></i>
     </a></div></div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/0e96753/">测试推文001</a>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/3fdce8e/">炉石兄弟策略的编译</a>
+  </h2><div class="post-meta"><span class="post-author"><span class="author"><img loading="lazy" src="https://cdn.icon-icons.com/icons2/2248/PNG/96/cat_icon_138789.png" alt="Caaat" data-title="Caaat" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;Caaat</span></span>&nbsp;<span class="post-publish" title='2024-11-02 19:31:22'>发布于 <time datetime="2024-11-02">2024-11-02</time></span></div><div class="content"><h3 id="炉石兄弟策略的编译" class="heading-element"><span>炉石兄弟策略的编译</span>
+  <a href="#%e7%82%89%e7%9f%b3%e5%85%84%e5%bc%9f%e7%ad%96%e7%95%a5%e7%9a%84%e7%bc%96%e8%af%91" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>删除 <code>CompiledAssemblies</code> 文件夹中的<code>DefaultRoutine.dll</code>文件，重新打开主程序时会自动对<code>Routines\DefaultRoutine</code>中的策略进行编译，重新生成<code>DefaultRoutine.dll</code></li>
+<li>使用VisualStudio进行编译，在VisualStudio中创建项目，将<code>Bots</code> <code>Routines</code>文件夹包含进来，<strong>项目属性 →应用程序→输出类型→类库</strong> ，在菜单栏的生成→生成解决方案，即可生成.dll 文件，可以手动重命名为<code>DefaultRoutine.dll</code>，也可在<strong>项目属性 →应用程序</strong>中，将程序集名称设置为<code>DefaultRoutine</code>，编译完成后手动将.dll文件复制到兄弟主程序的<code>CompiledAssemblies</code> 文件夹中。</li>
+</ol></div><div class="post-footer">
+    <a href="/posts/3fdce8e/">阅读全文</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/%E6%B5%8B%E8%AF%95%E6%8E%A8%E6%96%87/">测试推文001</a>
   </h2><div class="post-meta"><span class="post-author"><span class="author"><img loading="lazy" src="https://cdn.icon-icons.com/icons2/2248/PNG/96/cat_icon_138789.png" alt="Caaat" data-title="Caaat" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;Caaat</span></span>&nbsp;<span class="post-publish" title='2024-11-01 14:51:41'>发布于 <time datetime="2024-11-01">2024-11-01</time></span></div><div class="content"><h3 id="测试推文" class="heading-element"><span>测试推文</span>
   <a href="#%e6%b5%8b%e8%af%95%e6%8e%a8%e6%96%87" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
 </h3><p>测试测试测试</p></div><div class="post-footer">
-    <a href="/posts/0e96753/">阅读全文</a></div>
+    <a href="/posts/%E6%B5%8B%E8%AF%95%E6%8E%A8%E6%96%87/">阅读全文</a></div>
 </article></div></main><footer class="footer">
     <div class="footer-container"><div class="footer-line powered">Powered By <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.136.5"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.13"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
         </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
